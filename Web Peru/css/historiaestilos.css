@@ -91,7 +91,7 @@ footer{
 .info li{
   float: left;
   position: relative; 
-  margin: 20px;
+  margin: 25px;
   left: 30%;
 
 }
@@ -102,11 +102,10 @@ footer{
 }
 span{
   position: relative;
-  bottom: 5px;
   color: #ffffff;
   font-family: 'Barlow', sans-serif;
   font-weight: bold;
-  padding: 0px;
+  top: 3px;
 }
 #der{
   font-family: 'Barlow', sans-serif;
