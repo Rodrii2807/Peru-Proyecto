@@ -13,7 +13,7 @@ h1{
   padding: 0;
   overflow: hidden;
   position: relative; 
-  left: 44%;
+  left: 41%;
 }
 
 .nav li {
@@ -114,4 +114,51 @@ span{
   position: relative;
   top:25px;
   left: 43%;
+}
+
+/*----------------Contactenos---------------------*/
+
+form{
+  width: 400px;
+  margin: 30px auto;
+  background-color: #ffff;
+  opacity: .9;
+
+}
+form{
+  padding: 20px;
+}
+
+label{
+  font-family: 'Roboto', sans-serif;
+  color: #cc0000;
+  margin:15px;
+  display: inline-block;
+
+}
+input{
+  width: 200px
+  height: 30px;
+  margin:15px;
+}
+textarea{
+  width: 200px;
+  height: 100px;
+  margin:15px;
+}
+.button{
+  position: relative;
+  left: 40px;
+  background:rgba(0, 0, 0, 0.45);
+  width: 120px;
+}
+.button:hover{
+  background-color: #cc0000;
+  color: #ffff;
+}
+h3{
+  font-family: 'Barlow', sans-serif
+  color: #cc0000;
+  opacity: 10;
+  text-align: center;
 }
