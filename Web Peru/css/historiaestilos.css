@@ -41,10 +41,10 @@ h1{
 
 #gal{
   width: 95%;
-  height: 500px;
+  height: 400px;
   margin: 10px;
   position: relative;
-  left: 20px;
+  left: 0px;
   border-style: solid;
   border-radius: 20px;
   border-color: #ffb3b3;

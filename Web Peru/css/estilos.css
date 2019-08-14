@@ -41,7 +41,7 @@ h1{
 
 #gal{
   width: 95%;
-  height: 500px;
+  height: 400px;
   margin: 10px;
   position: relative;
   left: 20px;
@@ -99,6 +99,10 @@ footer{
   padding: 0;
   text-decoration: none;
 
+}
+#soc{
+  position: relative;
+  bottom: 7px;
 }
 span{
   position: relative;
