@@ -2,7 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/contactosestilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Barlow|Varela+Round&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
@@ -25,48 +29,43 @@
 		</ul>
 	</header>
 
-	<div id="container">
-		<h2>Contactos</h2>
-	</div>
-
-	<div>
-		<form class="form">
-      <h3>Ingrese Datos</h3>
-      <table>
-        <tr>
-          <td><label for="nombre" >Nombre:</label></td>
-          <td><input id="nombre" type="text" name="nombre" placeholder="Digite su Nombre" maxlength="50" ></td>
-        </tr>
-        <tr>
-          <td><label for="correo">Correo:</label></td>
-          <td><input id="correo" type="email" name="correo" placeholder="Digite su correo">
-        </tr>
-        <tr>
-          <td><label for="correo">Comentarios:</label></td>
-          <td><textarea></textarea></td></td>
-        </tr>
-
-      </table>
-           
-      <input class="button" type="button" name="" value="Enviar">
-      <input class="button" type="submit" name="" value="Cancelar">
-
-    </form>
-	</div>
+		<div class="contact-form">
+			<h2>Contáctenos</h2>
+			<div class="txtb">
+			  <label>Nombre Completo:</label>
+			  <input type="text" name="" value="" placeholder="Escriba su nombre">
+			</div>
+		
+			<div class="txtb">
+			  <label>Correo:</label>
+			  <input type="email" name="" value="" placeholder="Escriba su correo">
+			</div>
+		
+			<div class="txtb">
+			  <label>Numero de teléfono:</label>
+			  <input type="text" name="" value="" placeholder="Escriba su número telefónico">
+			</div>
+		
+			<div class="txtb">
+			  <label>Mensaje:</label>
+			  <textarea></textarea>
+			</div>
+			<input type="button" value="Enviar" id="boton2"></input>
+		  </div>
 
 	<footer>
 		
 		<ul class="info">
 			<li>
-				<a id="link" href="https://www.facebook.com/marcaPERU/"><img src="img/facebook.png"></a> <span>marcaPeru</span>
+				<a id="link" href="https://www.facebook.com/marcaPERU/"><img id="soc" src="img/facebook.png"></a> <span>marcaPeru</span>
 						
 			</li>
 			<li>
-				<a id="link" href="https://www.instagram.com/peru/"><img src="img/instagram.png"></a><span>@marcaPeru</span>
+				<a id="link" href="https://www.instagram.com/peru/"><img id="soc" src="img/instagram.png"></a><span> @marcaPeru</span>
 						
 			</li>
 			<li>
-				<img src="img/correo.png"> <span>marcapais@promperu.gob.pe</span>
+				<img id="soc" src="img/correo.png"> <span>marcapais@promperu.gob.pe</span>
 
 			</li>
 		</ul>		

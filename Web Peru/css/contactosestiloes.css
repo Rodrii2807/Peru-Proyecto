@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative; 
+    left: 41%;
+  }
+  
+  .nav li {
+    float: left;
+    position: relative; 
+  }
+  
+  .nav li #boton{
+  
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  #boton:hover {
+    background-color: #ffb3b3;
+    border-radius: 20px;
+  }
+  
+  /*-----------INICIO CSS-------------------*/
+  
+  #gal{
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #ffb3b3;
+  }
+  #des{
+    width: 95%;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+    border-style: solid;
+    border-color: #ffb3b3;
+    border-radius: 20px;
+  }
+  #des:hover, #gal:hover{
+    box-shadow: 0 4px 8px 0 #cc0000, 0 6px 20px 0 #cc0000;
+  }
+  h2{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+  }
+  p{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*----------------Contactenos---------------------*/
+
+form{
+    width: 400px;
+    margin: 30px auto;
+    background-color: #ffff;
+    opacity: .9;
+  
+  }
+  form{
+    padding: 20px;
+  }
+  
+  label{
+    font-family: 'Roboto', sans-serif;
+    color: #cc0000;
+    margin:15px;
+    display: inline-block;
+  
+  }
+  input{
+    width: 200px
+    height: 30px;
+    margin:15px;
+  }
+  textarea{
+    width: 200px;
+    height: 100px;
+    margin:15px;
+  }
+  .button{
+    position: relative;
+    left: 40px;
+    background:rgba(0, 0, 0, 0.45);
+    width: 120px;
+  }
+  .button:hover{
+    background-color: #cc0000;
+    color: #ffff;
+  }
+  h3{
+    font-family: 'Barlow', sans-serif
+    color: #cc0000;
+    opacity: 10;
+    text-align: center;
+  }
